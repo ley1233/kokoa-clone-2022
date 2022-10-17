@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yeon+Sung&display=swap');
 
-@import "kokoa-clone-2022/reset.css"; 
-@import "kokoa-clone-2022/variable.css";
+@import "./reset.css"; 
+@import "./variable.css";
 
 /*Componants*/
-@import "kokoa-clone-2022/componants/status-bar.css";
-@import "kokoa-clone-2022/componants/nav-bar.css";
-@import "kokoa-clone-2022/componants/screen-header.css";
-@import "kokoa-clone-2022/componants/user-component.css";
-@import "kokoa-clone-2022/componants/badge.css";
-@import "kokoa-clone-2022/componants/find.css";
-@import "kokoa-clone-2022/componants/more.css";
-@import "kokoa-clone-2022/componants/icon-row.css";
-@import "kokoa-clone-2022/componants/alt-screen-header.css";
-@import "kokoa-clone-2022/componants/no-mobile.css";
+@import "./componants/status-bar.css";
+@import "./componants/nav-bar.css";
+@import "./componants/screen-header.css";
+@import "./componants/user-component.css";
+@import "./componants/badge.css";
+@import "./componants/find.css";
+@import "./componants/more.css";
+@import "./componants/icon-row.css";
+@import "./componants/alt-screen-header.css";
+@import "./componants/no-mobile.css";
 
 /*Screens*/ 
-@import "kokoa-clone-2022/screen/login.css";
-@import "kokoa-clone-2022/screen/freinds.css";
-@import "kokoa-clone-2022/screen/setting.css";
-@import "kokoa-clone-2022/screen/chat.css";
+@import "./screen/login.css";
+@import "./screen/freinds.css";
+@import "./screen/setting.css";
+@import "./screen/chat.css";
 
 
 
