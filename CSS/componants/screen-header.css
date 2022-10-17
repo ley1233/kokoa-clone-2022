@@ -1,0 +1,56 @@
+.screen-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+
+     
+ 
+}
+
+.screen-header_title{
+  font-size: 32px;
+  font-weight: 600; 
+  margin-left: 25px;
+}
+
+.screen-header_icon span{
+  margin-left: 25px;
+  position: relative;
+  
+  
+}
+
+.screen-header_icon--find{
+  position: relative;
+}
+
+.fa-circle-info{
+  margin-right: 5px;
+}
+
+.fa-chevron-right{
+  margin-left: 10px;
+}
+
+#friends-display-link{
+  font-weight: 600;
+}
+
+
+
+@keyframes rotategear{
+  from{
+      transform: none;
+  }
+  to{
+     transform: rotateZ(360deg);
+  }
+
+}
+
+.screen-header_icon .fa-gear:hover{
+animation: rotategear 1s linear infinite;
+}

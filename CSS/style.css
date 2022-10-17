@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yeon+Sung&display=swap');
+
+@import "reset.css"; 
+@import "variable.css";
+
+/*Componants*/
+@import "componants/status-bar.css";
+@import "componants/nav-bar.css";
+@import "componants/screen-header.css";
+@import "componants/user-component.css";
+@import "componants/badge.css";
+@import "componants/find.css";
+@import "componants/more.css";
+@import "componants/icon-row.css";
+@import "componants/alt-screen-header.css";
+@import "componants/no-mobile.css";
+
+/*Screens*/ 
+@import "screen/login.css";
+@import "screen/freinds.css";
+@import "screen/setting.css";
+@import "screen/chat.css";
+
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: #2e363e; 
+
+} 
+
+.main-screen{
+  padding:20px var(--horizontal-space); 
+}
+
+
